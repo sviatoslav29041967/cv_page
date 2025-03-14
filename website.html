@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+
+
+
+      body {
+        background-color: antiquewhite;
+      }
+      
+      .form {
+        border: 2px solid black;
+        max-width: 300px;
+        padding: 10px;
+      }
+      .fieldset {
+        border: 2px solid orangered;
+        color: orangered;
+      }
+      .form-label {
+        display: block;
+      }
+      .form-input {
+        width: 100%;
+      }
+      .form-control {
+        width: 100%;
+        border: 2px dashed blue;
+      }
+      .form-submit {
+        background-color:aquamarine;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      
+      .red-button {
+        background: rgb(129, 13, 13);
+        color: white; 
+        border: none;
+      }
+      .yellow-button {
+        background: yellow;
+        color: green;
+        border: none;
+      }
+      .green-button {
+        background: green;
+        color: red;
+      }
+      .orange-button {
+        background: orange;
+      }
+      .ye-button {
+        background: yellow;
+        margin-right: 10px;
+      }
+      
+      p {
+        color: tomato;
+      }
+      
+      .table {
+        /* border-width: 1px;
+        border-style: solid;
+        border-color:black; */
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      
+      td, th {
+      
+        border: 1px solid black;
+        padding: 10px;
+        
+      }
+      </style>
+
+
+  </head>
+  <body>
+<link rel="stylesheet" href="">
+
+<br><br><br>
+<hr>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>skils</th>
+      <th>raiting</th>
+    </tr>  
+  </thead>
+<tbody>
+  <tr>
+    <td>1 
+    </td>
+    <td>REACT
+    </td>
+    <td>⭐⭐⭐⭐⭐
+    </td>
+  </tr>
+  <tr>
+    <td>2  
+    </td> 
+    <td>ANGULAR
+    </td>
+    <td>⭐⭐
+    </td>
+  </tr>
+  <tr>
+    <td>3 
+    </td> 
+    <td>VUE
+    </td>
+    <td>⭐⭐⭐⭐
+    </td>
+  </tr>
+  <tr>
+    <td>4  
+    </td>
+    <td colspan="2"> <img src="https://placehold.co/265x120" alt="">
+    </td>
+
+  </tr>
+</tbody>
+
+<tfoot>
+<tr>
+  <td></td>
+  <td colspan="2" rowspan="2">do not learning</td>
+</tr>
+<tr>
+  <td>---</td>
+</tr>
+<tr>
+  <td colspan="3">just do it  
+  </td> 
+</tr>
+
+</tfoot>
+
+</table>
+<br><br>
+
+
+<form action="mailo:cooltimeonline@gmail.com" method="post" target="_blank" class="form">
+<fieldset class="fieldset">  
+  <label for="firstNamId" class="form-label">firstName:</label>
+  <legend>required fields</legend>
+  <input type="text" name="firstName" id="firstNamId" required placeholder="type your first name" class="form-input">
+ 
+  <label for="lastNamId" class="form-label">lastName:</label>
+  <input type="text" name="lastName" id="lastNamId" required placeholder="type your flast name" class="form-input">
+  
+  <label for="emailId" class="form-label">email:</label>
+  <input type="email" name="email" id="emailId" required placeholder="type your email" class="form-input"></fieldset>
+ 
+  <label for="questionId"class="form-label">Your questions</label>
+  <textarea name="questions" id="questionId" cols="20" rows="5" placeholder="type your questions" class="form-control"></textarea>
+  <br><br>
+  <button class="form-control form-submit">submit btn</button>
+</form>
+
+  </body>
+</html>

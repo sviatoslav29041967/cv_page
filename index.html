@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV page</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="assets/avatar.png" alt="avatar" class="avatar">
+        <h1 class="header_title">Sviatoslav Zv</h1>
+        <h2 class="header_subtitle">frontend developer</h2>
+    </header>
+
+    <main>
+
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list</summary>
+                <ol>
+                    <li>1 HTML</li>
+                    <li>2 CSS</li>
+                    <li>3 JavaScript</li>
+                    <li>4 React</li>
+                    <li>5 TipeScript</li>
+                </ol>
+            </details>
+            <article class="article">
+                <h4>Short article</h4>
+                <p>Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Власти грустный
+                    города дорогу он осталось раз рукописи заголовок, вдали домах рыбными путь? Семантика маленький
+                    переписали большого реторический. Власти правилами взгляд, языком путь продолжил речью ты вопроса
+                    вершину великий повстречался встретил которой точках свой запятых строчка скатился напоивший рот.
+                </p>
+            </article>
+
+        </section>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+        </section>
+
+        <hr class="separator">
+
+        <section>
+            <iframe class="video" src="https://www.youtube.com/embed/bxl_qi72tMU"
+                title="HTML для начинающих за 33 минуты"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+
+            <details>
+
+                <summary>Hobbies</summary>
+                <ol>
+                    <li>1 Sking</li>
+                    <li>2 Video editing</li>
+                    <li>3 audio</li>
+                </ol>
+            </details>
+
+        </section>
+
+        <hr class="separator">
+
+        <section class="ed">
+            <table class="ed_table">
+
+                <thead>
+                    <tr>
+                        <th>School / University</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>IT school</td>
+                        <td>Angular Dev</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>IT school</td>
+                        <td>React Dev</td>
+                        <td>2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Действие - единственный путь к успеху.
+            </blockquote>
+        </section>
+
+        <section class="interuction">
+            <form action="https://google.com" method="get" target="_blank" class="form">
+
+                <fieldset>
+                    <legend>required fields</legend>
+                    <div>
+                        <label for="firstName-id">First Name</label>
+                        <input type="text" name="firstName" placeholder="first name" id="firstName-id"
+                            class="form_control" required>
+                    </div>
+
+
+                    <div>
+                        <label for="lastName-id">
+                            Last Name</label>
+                        <input type="text" name="LastName" placeholder="last name" id="lastName-id" class="form_control"
+                            required>
+                    </div>
+
+
+                    <div><label for="email-id">Email</label>
+                        <input type="email" name="email" placeholder="email" id="email-id" class="form_control"
+                            required>
+                    </div>
+
+                </fieldset>
+                <br>
+
+                <textarea name="questions" placeholder="your questionns" id="questions" class="form_control" cols="30"
+                    rows="10"></textarea>
+
+                <button type="submit" class="form_submit">submit</button>
+
+
+
+            </form>
+
+        </section>
+
+    </main>
+    <hr class="separator">
+
+    <footer>
+        <address> <a href="mailto@gmail.com " target="_blank" class="contact_links">
+                mailto@gmail.com
+            </a>
+            <br><br>
+            <a href="tel:+3807777777" target="_blank" class="contact_links">+3807777777</a>
+        </address>
+
+    </footer>
+
+</body>
+
+</html>
